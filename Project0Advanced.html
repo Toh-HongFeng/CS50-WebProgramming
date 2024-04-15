@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+        <link rel="stylesheet" type="text/css" href="Project0.css">
+    </head>
+    <body>
+        <div class="rightDiv">
+            <a href="https://toh-hongfeng.github.io/CS50-WebProgramming/index.html">Main Search</a>
+        </div>
+        <h1 style="margin: 40px 45px; color: #d93025;">CS50 Advanced Search</h1>
+        <div style="border-bottom: 1px solid #eeeeee;"></div>
+        <form action="https://www.google.com/search">
+            <div style="margin: 40px 45px;">
+                <p>Find pages with...</p>
+                <div class="asoptn">
+                    <label for="advSearch_q">all these words:</label>
+                    <input type="text" name="as_q" id="advSearch_q">
+                </div>
+                <div class="asoptn">
+                    <label for="advSearch_epq">this exact word or phrase:</label>
+                    <input type="text" name="as_epq" id="advSearch_epq">
+                </div>
+                <div class="asoptn">
+                    <label for="advSearch_oq">any of these words:</label>
+                    <input type="text" name="as_oq" id="advSearch_oq">
+                </div>
+                <div class="asoptn">
+                    <label for="advSearch_eq">none of these words:</label>
+                    <input type="text" name="as_eq" id="advSearch_eq">
+                </div>
+            </div>
+            <div class="rightDiv">
+                <input type="submit" value="Advanced Search" class="searchbtn" style="color: white; background: dodgerblue;">
+            </div>
+        </form>
+        <div style="border-bottom: 1px solid #eeeeee;"></div>
+    </body>
+</html>
